@@ -121,6 +121,7 @@ nav a {
     transition: opacity 1.2s ease;
 }
 
+
 .slider-item.active {
     opacity: 1;
     visibility: visible;
@@ -307,7 +308,6 @@ button {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #000;
 }
 
 .chooseus p {
@@ -362,8 +362,27 @@ footer {
 }
 
 
+/* media queries */
 @media(max-width:1080px){
     .mid{
         display: none;
+
     }
+}
+
+@media (max-width:720px) {
+    header{
+        max-height: 2px;
+        font-size: 10px;
+    }
+    .header-container{
+    }
+    .logo img{
+        height: 40px;
+        width: 40px;
+    }
+    nav a{
+        font-size: 10px;
+    }
+    
 }

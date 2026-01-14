@@ -32,6 +32,7 @@ header.hide {
     justify-content: space-between;
     align-items: center;
     backdrop-filter: blur(25px);
+    gap: 20px;
     border-radius: 50px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
@@ -69,7 +70,7 @@ header.hide {
 
 /* Typing text */
 .mid {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-family: "Dancing Script", cursive;
     color: #ffdd1aa6;
 }
@@ -89,6 +90,7 @@ nav a {
 }
 
 .loginbtn {
+    max-height: 40px;
     padding: 10px 18px;
     border-radius: 30px;
     background: linear-gradient(45deg, #ff9800, #ff5722);

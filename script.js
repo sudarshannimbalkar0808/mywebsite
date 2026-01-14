@@ -1,5 +1,6 @@
 /* ===== TYPING TEXT ===== */
 const slogans = [
+  "hello foodies",
   "Delicious moments served fresh",
   "Taste the future of food",
   "Where flavor meets magic",
@@ -66,9 +67,5 @@ window.addEventListener("scroll", () => {
   lastScrollY = currentScrollY;
 });
 
-const menuToggle = document.getElementById("menuToggle");
-const navMenu = document.getElementById("navMenu");
 
-menuToggle.addEventListener("click", () => {
-  navMenu.classList.toggle("show");
-});
+const loginbtn=document.querySelector("loginbtn");

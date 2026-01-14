@@ -65,3 +65,10 @@ window.addEventListener("scroll", () => {
 
   lastScrollY = currentScrollY;
 });
+
+const menuToggle = document.getElementById("menuToggle");
+const navMenu = document.getElementById("navMenu");
+
+menuToggle.addEventListener("click", () => {
+  navMenu.classList.toggle("show");
+});

@@ -365,7 +365,7 @@ footer {
     
 }
 @media (max-width: 720px){
-    nav{
+    nav a{
         display: none;
     }
 }

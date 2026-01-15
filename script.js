@@ -68,4 +68,16 @@ window.addEventListener("scroll", () => {
 });
 
 
-const loginbtn=document.querySelector("loginbtn");
+// ===== ORDER BUTTON CLICK =====
+document.querySelectorAll(".order-btn").forEach(button => {
+  button.addEventListener("click", () => {
+    const card = button.closest(".card");
+
+    const itemName = card.querySelector("h2").innerText;
+    const price = card.querySelector(".price").innerText;
+console.log(itemName, price);
+
+    alert(`Item Added!\n\nFood: ${itemName}\nPrice: ${price}`);
+  });
+});
+ 
